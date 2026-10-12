@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0D1B3D">
+  <meta name="description" content="Ubiko conecta conductores con playas de estacionamiento. Tecnología que simplifica tu camino.">
+  <title>Inicio | Ubiko</title>
+  <link rel="icon" type="image/png" href="assets/ubiko-icono.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="home">
+  <div class="page-loader" id="page-loader" aria-label="Cargando Ubiko">
+    <div class="loader-brand" aria-label="Ubiko"><span class="logo-u">u</span><span class="logo-b">b</span><span class="logo-i">i</span><span class="logo-k">k</span><span class="logo-o">o</span></div>
+    <div class="loader-scene">
+      <div class="loader-road"><i></i><i></i><i></i></div>
+      <div class="loader-kito-wrap">
+        <img src="assets/kito-loading-render.png" class="loader-kito" alt="">
+        <span class="loader-wheel wheel-left"></span><span class="loader-wheel wheel-right"></span>
+      </div>
+    </div>
+    <p class="loader-caption">Preparando tu camino<span class="loading-dots">...</span></p>
+    <div class="loader-progress"><span></span></div>
+  </div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Ubiko, ir al inicio">
+      <img src="assets/ubiko-icono.png" alt="" class="brand-mark">
+      <span class="wordmark" aria-label="Ubiko"><span class="logo-u">u</span><span class="logo-b">b</span><span class="logo-i">i</span><span class="logo-k">k</span><span class="logo-o">o</span></span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav-links" aria-label="Navegación principal">
+      <a class="nav-link active" href="index.html">Inicio</a>
+      <a class="nav-link " href="nosotros.html">Sobre nosotros</a>
+      <a class="nav-link nav-cta " href="probar.html">Probar la app <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="inicio">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> MOVILIDAD MÁS SIMPLE</div>
+        <h1>Encontrá tu lugar.<br><span>Seguí tu camino.</span></h1>
+        <p class="hero-description">Encontrá playas de estacionamiento, consultá lugares disponibles y reservá tu espacio antes de llegar. Todo desde un solo lugar.</p>
+        <div class="hero-actions"><a class="button button-primary" href="probar.html">Conocé la aplicación <span>→</span></a><a class="text-link" href="#como-funciona">¿Cómo funciona? <span>↓</span></a></div>
+        <div class="hero-proof"><span class="proof-icon">✓</span><span>Más organización, menos vueltas.</span></div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="blue-glow"></div>
+        <div class="floating-card card-available"><span class="status-dot"></span><div><strong>Espacios disponibles</strong><small>Encontrá tu próximo lugar</small></div></div>
+        <div class="mascot-stage"><img class="mascot" src="assets/kito-full.png" alt="Kito saludando con su mano, la mascota de Ubiko"><span class="mascot-shadow"></span></div>
+        <div class="floating-card card-location"><span class="pin-mini">⌖</span><div><strong>Tu lugar, más cerca</strong><small>Movete con confianza</small></div></div>
+        <div class="spark spark-a">✦</div><div class="spark spark-b">✳</div><div class="speech-bubble" id="mascot-bubble">¡Hola! Soy Kito 👋</div>
+      </div>
+      <div class="hero-bottom-note"><span class="line"></span> HECHO CON IDENTIDAD CORRENTINA</div>
+    </section>
+    <section class="problem-strip"><div class="section-wrap strip-inner">
+      <div><span class="strip-number">01</span><strong>Buscá</strong><p>Encontrá playas de estacionamiento.</p></div>
+      <div><span class="strip-number">02</span><strong>Compará</strong><p>Revisá opciones y disponibilidad.</p></div>
+      <div><span class="strip-number">03</span><strong>Reservá</strong><p>Organizá tu llegada con anticipación.</p></div>
+    </div></section>
+    <section class="features section-wrap" id="como-funciona">
+      <div class="section-heading reveal"><span class="eyebrow">MENOS VUELTAS, MÁS CAMINO</span><h2>Estacionar no debería<br><span>complicarte el día.</span></h2><p>Ubiko busca conectar a conductores con propietarios de estacionamientos de una manera práctica, clara y organizada.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card reveal"><div class="feature-icon blue">⌕</div><span class="feature-index">01 / ENCONTRÁ</span><h3>Buscá cerca tuyo</h3><p>Descubrí playas de estacionamiento y encontrá una alternativa que se adapte a tu recorrido.</p><div class="feature-arrow">↗</div></article>
+        <article class="feature-card reveal"><div class="feature-icon green">✓</div><span class="feature-index">02 / ORGANIZÁ</span><h3>Consultá opciones</h3><p>Visualizá la información de cada espacio para decidir con más tranquilidad.</p><div class="feature-arrow">↗</div></article>
+        <article class="feature-card reveal"><div class="feature-icon navy">◷</div><span class="feature-index">03 / AHORRÁ TIEMPO</span><h3>Reservá antes</h3><p>La propuesta es que puedas planificar dónde dejar el auto antes de llegar.</p><div class="feature-arrow">↗</div></article>
+      </div>
+    </section>
+    <section class="home-cta"><div class="section-wrap home-cta-inner reveal"><div><span class="eyebrow">TU PRÓXIMO DESTINO</span><h2>Tu tiempo vale.<br><span>Organizá tu llegada.</span></h2></div><a class="button button-primary" href="probar.html">Probar Ubiko <span>↗</span></a></div></section>
+  </main>
+
+  <footer class="footer">
+    <div class="section-wrap footer-inner">
+      <a class="brand footer-brand" href="index.html"><img src="assets/ubiko-icono.png" alt=""><span class="wordmark" aria-label="Ubiko"><span class="logo-u">u</span><span class="logo-b">b</span><span class="logo-i">i</span><span class="logo-k">k</span><span class="logo-o">o</span></span></a>
+      <p>Tecnología que simplifica tu camino.</p>
+      <a href="#" class="back-top">Volver arriba ↑</a>
+      <small>© 2026 Ubiko · Proyecto estudiantil · Corrientes, Argentina</small>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
